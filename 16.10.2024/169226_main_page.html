@@ -73,7 +73,7 @@
     </form>
 	</div>
 	
-		<div id="animacjaTestowa1" class="test-block"><h1><b><i>Kliknij a się powiększy</i></b></h1></div>
+	<div id="animacjaTestowa1" class="test-block"><scrbutton>Kliknij</scrbutton></div>
     
                     <script>
                         
@@ -86,7 +86,38 @@
                         });
             
                     </script>
-	
+	<br><br>
+	 <div id="animacjaTestowa2" class="test-block"><scrbutton>Najedź kursorem</scrbutton></div>
+
+				<script>
+					$("#animacjaTestowa2").on({
+						"mouseover": function() {
+							$(this).animate({
+								width: 300
+							}, 800);
+						},
+						"mouseout": function() {
+							$(this).animate({
+								width: 200
+								}, 800);
+						}
+					});
+				</script>
+                    <br>
+                    <div id="animacjaTestowa3" class="test-block"><h1><scrbutton>Kliknij</scrbutton></h1></div>
+    
+                    <script>
+					$("#animacjaTestowa3").on("click", function(){
+						if (!$(this).is(":animated")) {
+							$(this).animate({
+								width: "+=50",
+								height: "+=10",
+								opacity: "+=0.1",
+								duration : 3000 
+							});
+						}
+					});
+				</script>
     <div id="kontakt">
         <h2>Kontakt</h2>
         <form class="contact-form" action="mailto:przykladowy.email@gmail.com" method="post" enctype="text/plain">

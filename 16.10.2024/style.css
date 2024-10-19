@@ -13,10 +13,12 @@
 			padding: 20px;
         }
 		h1 {
-            color: lightblue;
+            
             text-align: center;
 			padding: 20px;
         }
+	
+		
         nav {
             text-align: center;
             margin: 20px;
@@ -95,6 +97,13 @@
     -moz-user-select: none;
     -ms-user-select: none;
 	}
+		scrbutton
+		{
+			font-size: 40;
+			color: lightblue;
+            text-align: center;
+			
+		}
         .text-image {
             float: left;
             margin: 10px;
