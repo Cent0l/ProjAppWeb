@@ -1,0 +1,114 @@
+        body {
+			background: grey;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 30;
+        }
+		
+        header {
+            background-color: black;
+            color: lightblue;
+            text-align: center;
+			margin: -40px;
+			padding: 20px;
+        }
+		h1 {
+            
+            text-align: center;
+			padding: 20px;
+        }
+	
+		
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+
+        nav a {
+            
+            color: white;
+            font-weight: bold;
+            padding: 20px 20px;
+            
+        } 
+		section{
+			color: black ;
+            padding: 40px 20px;
+		}
+		
+		clock {
+            
+            color: black;
+            font-weight: bold;
+			font-size:30;
+            padding: 20px 20px;
+			text-align: center;
+			}
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 3px solid black;
+            text-align: center;
+            background-color: lightblue;
+        }
+
+        img {
+            height: 200px;
+        }
+
+        
+        form {
+            margin: 20px;
+            background-color: lightgray;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+
+        input[type="submit"] {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: darkgray;
+        }
+	.test-block{
+
+    width: 220px;
+    border: 1.5px solid rgb(100, 181, 208);
+    background: rgb(100, 202, 236);
+    text-align: left;
+    color: #000;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-touch-callout: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	}
+		scrbutton
+		{
+			font-size: 40;
+			color: lightblue;
+            text-align: center;
+			
+		}
+        .text-image {
+            float: left;
+            margin: 10px;
+        }
+
+        .container {
+            overflow: hidden;
+        }
