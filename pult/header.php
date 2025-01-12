@@ -17,5 +17,7 @@ require 'db_connection.php'; // Załaduj połączenie z bazą danych
         ?>
         <!-- Link do koszyka -->
         <a href="cart.php">Koszyk</a>
+		<a href="login.php">Logowanie</a> <!-- Link do strony logowania -->
+		
     </nav>
 </header>
