@@ -18,6 +18,12 @@ function PokazKontakt() {
         <textarea id="message" name="message" required></textarea><br><br>
 
         <input type="submit" name="sendMail" value="Wyślij">
+    </form>
+    <br>
+    <!-- Przycisk do resetowania hasła -->
+    <form method="GET" action="contact.php">
+        <input type="hidden" name="action" value="reset">
+        <input type="submit" value="Przypomnij hasło">
     </form>';
 }
 
@@ -43,7 +49,7 @@ function WyslijMailKontakt() {
 function PrzypomnijHaslo() {
     echo '
     <h2>Przypomnienie Hasła</h2>
-    <form method="POST" action="contact.php">
+    <form method="POST" action="contact.php?action=reset">
         <label for="email">Podaj swój e-mail:</label><br>
         <input type="email" id="email" name="resetEmail" required><br><br>
         <input type="submit" name="resetPassword" value="Wyślij przypomnienie">
